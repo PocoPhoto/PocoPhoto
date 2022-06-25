@@ -1,0 +1,337 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*, ::before, ::after {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page1 {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    /* background: #333; */
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('ressources/acceuil2.jpg');
+    height: 90vh;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+header.header img {
+    width: 110px;
+    height: 110px;
+    padding : 0;
+    text-align: center; 
+    overflow: hidden; 
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(161, 173, 180); */
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    /* background-color: red; */
+    width: 500px;
+    margin-left: 230px;
+    margin-top: 57px;
+}
+
+nav.nav li a {
+    text-shadow: 5px 5px 5px gray;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.container-first {
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color:white;
+    text-shadow: 5px 5px 5px gray;
+    font-size: 110px;
+    font-family: Abril fatface, sans-serif;
+}
+h1 span {
+    position: relative;
+}
+.container-btns {
+    position: relative;
+    top: 50px;
+}
+.btn-first {
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 15px;
+    width: 300px;
+    text-shadow: 5px 5px 5px gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-first:nth-child(1){
+    margin-right: 30px;
+}
+
+.btn-text {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
+}
+.lignes {
+    position: absolute;
+    top: 5.6%;
+    left: 80%;
+}
+.l1 {
+    width: 250px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.l2 {
+    width: 140px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.logo {
+    position: absolute;
+    /* right: 2.9%; */
+    left: 2.9%;
+    top: 2.0%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.blocks {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img1 {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.img2 {
+    display: block;
+    margin: 0px auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.img3 {
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+
+.container-two {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.Projet {
+    font-size: 50px;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.txt {
+    font-size: 30px;
+    position: absolute;
+    font-family: 'Montserrat';
+    bottom: 700px;
+    right: 600px;
+}
+
+.bouton1 {
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    padding: 15px;
+    width: 100px;
+    text-shadow: 5px 5px 5px gray;
+    display: block;
+    margin: 0px auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    bottom: 6px;
+    left: 700px;
+    cursor: pointer;
+}
+
+.plusDinfo {
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    font-size: 45px;
+    top: 200px;
+    left: 110px;
+    text-shadow: 5px 5px 5px gray;
+    text-decoration: none;
+}
+
+
+.plusDinfo3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    display: block;
+    width: 1255px;
+    font-size: 30px;
+    top: 300px;
+    left: 0px;
+    text-shadow: 5px 5px 5px gray;
+    text-decoration: none;
+
+}
+
+
+.landing-info {
+    display: flex;
+    /* color: brown; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    margin: 50px;
+    margin-top: 250px;
+}
+
+.txtinfo {
+    font-family:'Courier New', Courier, monospace;
+    display: block;
+    width:750px;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px gray;
+    text-decoration: none;
+}
+
+.YT{
+    width: 750px;
+    height: 450px;
+    right: 10px;
+    border-radius: 50px;
+}
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat';
+    position:fixed;
+    bottom: 15px;
+    right: 52px;
+}
+
+footer p.copyright {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    position:fixed;
+    bottom: 0px;
+    left: 50px;
+}
+
+footer a.cgv2 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+}
+
+footer p.copyright2 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+}
